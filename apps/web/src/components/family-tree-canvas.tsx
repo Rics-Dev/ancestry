@@ -337,6 +337,13 @@ export function FamilyTreeCanvas() {
     const toX = to.x;
     const toY = to.y;
 
+
+
+
+
+
+
+
     if (type === "spouse") {
       // Straight line for spouses
       return `M ${fromX} ${fromY} L ${toX} ${toY}`;
