@@ -12,6 +12,12 @@ const router = createRouter({
   defaultPreloadStaleTime: 0,
 });
 
+
+
+
+
+
+
 declare module "@tanstack/solid-router" {
   interface Register {
     router: typeof router;
